@@ -7,7 +7,7 @@ header img{
 
 body {
     background: url(../images/start3.png) no-repeat;
-    background-position: top;
+    background-size: 120% 130%;
 }
 
 .deg{
@@ -27,7 +27,8 @@ header h1{
 #principal .btns{
     position: absolute;
     |position:relative;
-    bottom: 2em;
+    bottom: 0em;
+    top: 41em;
     overflow-x: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -36,7 +37,7 @@ header h1{
 }
 
 #principal .btns button{
-    padding: 10px 20px;
+    padding: 10px 20px 8px 20px;
     font-size: 1.3em;
     border-radius: 5px;
     color: #fff;
