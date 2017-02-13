@@ -1,3 +1,23 @@
+html {
+    background: url(../images/start4.png) no-repeat fixed;
+    background-size: cover; 
+    background-position: top center;
+}
+
+body{
+    background: none;
+}
+
+body * {    
+font-family: 'Khula', sans-serif;
+}
+
+/*------------------------ HEADER ------------------------*/
+
+header{
+    
+}
+
 header img{
     width: 10em;
     margin-top: 5em;
@@ -5,31 +25,9 @@ header img{
     margin-right: auto;
 }
 
-body {
-    background: url(../images/start3.png) no-repeat;
-    background-size: 120% 130%;
-}
-
-.deg{
-    background-color: #000;
-    padding-bottom: 100px;
-}
-
-#principal{
-    padding-bottom: 400px;
-}
-
-header h1{
-    margin-top: 50px;
-    color: #fff;
-}
-
 #principal .btns{
     position: absolute;
-    |position:relative;
-    bottom: 0em;
-    top: 41em;
-    overflow-x: 50px;
+    bottom: 3em;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -37,17 +35,20 @@ header h1{
 }
 
 #principal .btns button{
-    padding: 10px 20px 8px 20px;
-    font-size: 1.3em;
+    padding: 10px 40px;
+    font-size: 1.4em;
     border-radius: 5px;
     color: #fff;
+    margin: 0px 10px;
 }
 
 #principal #logIn{
     background-color: transparent;
+    border: 1px solid #fff;
 }
 
 #principal #signUp{
     background: linear-gradient(to right, #7d00bf , #d900bf);
+    border: 1px solid #7d00bf;
 }
 
