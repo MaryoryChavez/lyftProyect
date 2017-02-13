@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Lyft - Sign Up</title>
+    <link href="https://fonts.googleapis.com/css?family=Khula:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/flags.css">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+
+    <script src="JS/jquery-3.1.1.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header class="text-center">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="titulo">
+                    <div class="col-xs-12 col-sm-12">
+                        <h1>Sign Up</h1>
+                        <p>Join now for free ride credit</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="cellphone" class="text-center">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Action <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" id="listCountries">
+                        </ul>
+                    </div>
+                    <input type="text">
+                    <p>We'll send a text to verify your phone</p>
+                    <button onclick="pru()">Next</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="JS/countries.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
