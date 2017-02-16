@@ -8,13 +8,14 @@
     <link href="https://fonts.googleapis.com/css?family=Khula:400,700" rel="stylesheet">
     <link rel="stylesheet" href="CSS/flags.css">
     <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Khula:400,700" rel="stylesheet">
     <link rel="stylesheet" href="CSS/signup.css">
 
     <script src="JS/jquery-3.1.1.min.js"></script>
     <script src="JS/bootstrap.min.js"></script>
 </head>
 
-<body onload="listCountries(event)" >
+<body onload="listCountries(event)">
     <header class="text-center">
         <div class="container-fluid">
             <div class="row">
@@ -28,25 +29,29 @@
         </div>
     </header>
 
-    <section id="cellphone" class="text-center">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-12 col-sm-12">
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="valorCount">
-                        
-                        </button>
-                        <ul class="dropdown-menu" id="listCountries">
+    <section id="cellphone">
+        <div class="continer">
+            <div class="col-sm-12 col-xs-12">
+                <div class="btn-group" id="grupal">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="valorCount">
+                    </button>
+                    <ul class="dropdown-menu" id="listCountries">
                         <h1>Select Country</h1>
-                        </ul>
-                    </div>
-                    <input type="text" id="inputNumber">
-                    <p>We'll send a text to verify your phone</p>
-                    <button onclick="aleatoriPass()">Next</button>
+                        <p>Common countries</p>
+                    </ul>
+                    <div id="dialNumber"></div>
+                    <input type="number" id="inputNumber">
                 </div>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <p class="text-center">We'll send a text to verify your phone</p>
+            </div>
+            <div class="col-sm-12 col-xs-12 text-center btnNext">
+                <button onclick="aleatoriPass()" id="boton">Next</button>
             </div>
         </div>
     </section>
+
     <script src="JS/countries.js"></script>
     <script src="JS/main.js"></script>
 </body>

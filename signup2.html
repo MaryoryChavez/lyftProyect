@@ -4,8 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="">
+    <title>Lyft - Datos Personales</title>
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Khula:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/signup2.css">
 </head>
 
 <body>
@@ -26,17 +28,23 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-xs-12 col-sm-12">
-                <input type="text" id="nameUser">
+                <input type="text" class="form-control" placeholder="Nombre y Apellido" id="nameUser">
             </div>
         </div>
         <div class="row">
             <div class="col-xs-12 col-sm-12">
-                <input type="text" id="emailUser">
+                <input type="text" class="form-control" placeholder="Correo" id="emailUser">
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-12 col-sm-12">
-                <button onclick="validate()">Next</button>
+            <div class="col-xs-12 col-sm-12 btnNext">
+                <button onclick="validate()" id="boton">Next</button>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-xs-12 col-sm-12" id="ts">
+                <div><input type="checkbox" id="check"> <p class="terms">I agree to Lyft's <a href="#">Terms of Service</a></p></div>
             </div>
         </div>
     </div>
