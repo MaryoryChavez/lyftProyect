@@ -17,15 +17,15 @@ font-family: 'Khula', sans-serif;
 /*------------------------ HEADER ------------------------*/
 
 header img{
-    width: 10em;
-    margin-top: 5em;
+    width: 50%;
+    margin-top: 2em;
     |git checkoutmargin-left: auto;
     |margin-right: auto;
 }
 
 #principal .btns{
     position: absolute;
-    bottom: 3em;
+    bottom: 1.5em;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -33,11 +33,11 @@ header img{
 }
 
 #principal .btns button{
-    padding: 10px 40px;
+    padding: 3% 9%;
     font-size: 1.4em;
     border-radius: 5px;
     color: #fff;
-    margin: 0px 10px;
+    margin: 0px 5px;
 }
 
 #principal #logIn{
